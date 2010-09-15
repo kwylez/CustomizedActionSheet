@@ -1,0 +1,90 @@
+// !$*UTF8*$!
+{
+	EA2705F712400F1800C93EB6 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = EA27060612400F1800C93EB6 /* CustomizedActionSheet */;
+		activeTarget = EA27060312400F1800C93EB6 /* CustomizedActionSheet */;
+		codeSenseManager = EA2705FB12400F1800C93EB6 /* Code sense */;
+		executables = (
+			EA27060612400F1800C93EB6 /* CustomizedActionSheet */,
+		);
+		ignoreBreakpointsInProjectsDict = {
+		};
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 306251007;
+			PBXWorkspaceStateSaveDate = 306251007;
+		};
+		sourceControlManager = EA73AD411241050100A4A6B6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	EA2705FB12400F1800C93EB6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	EA27060312400F1800C93EB6 /* CustomizedActionSheet */ = {
+		activeExec = 0;
+		executables = (
+			EA27060612400F1800C93EB6 /* CustomizedActionSheet */,
+		);
+	};
+	EA27060612400F1800C93EB6 /* CustomizedActionSheet */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CustomizedActionSheet;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	EA73AD411241050100A4A6B6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+}

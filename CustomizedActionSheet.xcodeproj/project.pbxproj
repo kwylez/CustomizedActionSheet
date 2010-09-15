@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA27060812400F1800C93EB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA27060712400F1800C93EB6 /* UIKit.framework */; };
+		EA27060A12400F1800C93EB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA27060912400F1800C93EB6 /* Foundation.framework */; };
+		EA27060C12400F1800C93EB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA27060B12400F1800C93EB6 /* CoreGraphics.framework */; };
+		EA27061112400F1800C93EB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA27060F12400F1800C93EB6 /* InfoPlist.strings */; };
+		EA27061312400F1800C93EB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27061212400F1800C93EB6 /* main.m */; };
+		EA27061612400F1800C93EB6 /* CustomizedActionSheetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27061512400F1800C93EB6 /* CustomizedActionSheetAppDelegate.m */; };
+		EA27061912400F1800C93EB6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA27061712400F1800C93EB6 /* MainWindow.xib */; };
+		EA27061C12400F1800C93EB6 /* CustomizedActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27061B12400F1800C93EB6 /* CustomizedActionSheetViewController.m */; };
+		EA27061F12400F1800C93EB6 /* CustomizedActionSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA27061D12400F1800C93EB6 /* CustomizedActionSheetViewController.xib */; };
+		EA27062D124016EC00C93EB6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA27062C124016EC00C93EB6 /* QuartzCore.framework */; };
+		EA27063F1240210900C93EB6 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = EA27063E1240210900C93EB6 /* red.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA27060412400F1800C93EB6 /* CustomizedActionSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomizedActionSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA27060712400F1800C93EB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA27060912400F1800C93EB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA27060B12400F1800C93EB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA27060D12400F1800C93EB6 /* CustomizedActionSheet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomizedActionSheet-Info.plist"; sourceTree = "<group>"; };
+		EA27060E12400F1800C93EB6 /* CustomizedActionSheet_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomizedActionSheet_Prefix.pch; sourceTree = "<group>"; };
+		EA27061012400F1800C93EB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA27061212400F1800C93EB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA27061412400F1800C93EB6 /* CustomizedActionSheetAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomizedActionSheetAppDelegate.h; sourceTree = "<group>"; };
+		EA27061512400F1800C93EB6 /* CustomizedActionSheetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomizedActionSheetAppDelegate.m; sourceTree = "<group>"; };
+		EA27061812400F1800C93EB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		EA27061A12400F1800C93EB6 /* CustomizedActionSheetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomizedActionSheetViewController.h; sourceTree = "<group>"; };
+		EA27061B12400F1800C93EB6 /* CustomizedActionSheetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomizedActionSheetViewController.m; sourceTree = "<group>"; };
+		EA27061E12400F1800C93EB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CustomizedActionSheetViewController.xib; sourceTree = "<group>"; };
+		EA27062A124016CC00C93EB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA27062C124016EC00C93EB6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EA27063E1240210900C93EB6 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = /Users/coryw/Desktop/red.png; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA27060112400F1800C93EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA27060812400F1800C93EB6 /* UIKit.framework in Frameworks */,
+				EA27060A12400F1800C93EB6 /* Foundation.framework in Frameworks */,
+				EA27060C12400F1800C93EB6 /* CoreGraphics.framework in Frameworks */,
+				EA27062D124016EC00C93EB6 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA2705F512400F1800C93EB6 = {
+			isa = PBXGroup;
+			children = (
+				EA27062C124016EC00C93EB6 /* QuartzCore.framework */,
+				EA27062A124016CC00C93EB6 /* CoreGraphics.framework */,
+				EA2705FC12400F1800C93EB6 /* Classes */,
+				EA2705FD12400F1800C93EB6 /* Other Sources */,
+				EA2705FE12400F1800C93EB6 /* Resources */,
+				EA2705FF12400F1800C93EB6 /* Frameworks */,
+				EA27060512400F1800C93EB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA2705FC12400F1800C93EB6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EA27061412400F1800C93EB6 /* CustomizedActionSheetAppDelegate.h */,
+				EA27061512400F1800C93EB6 /* CustomizedActionSheetAppDelegate.m */,
+				EA27061A12400F1800C93EB6 /* CustomizedActionSheetViewController.h */,
+				EA27061B12400F1800C93EB6 /* CustomizedActionSheetViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EA2705FD12400F1800C93EB6 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EA27060E12400F1800C93EB6 /* CustomizedActionSheet_Prefix.pch */,
+				EA27061212400F1800C93EB6 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		EA2705FE12400F1800C93EB6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA27063E1240210900C93EB6 /* red.png */,
+				EA27060D12400F1800C93EB6 /* CustomizedActionSheet-Info.plist */,
+				EA27060F12400F1800C93EB6 /* InfoPlist.strings */,
+				EA27061712400F1800C93EB6 /* MainWindow.xib */,
+				EA27061D12400F1800C93EB6 /* CustomizedActionSheetViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EA2705FF12400F1800C93EB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA27060712400F1800C93EB6 /* UIKit.framework */,
+				EA27060912400F1800C93EB6 /* Foundation.framework */,
+				EA27060B12400F1800C93EB6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA27060512400F1800C93EB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA27060412400F1800C93EB6 /* CustomizedActionSheet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA27060312400F1800C93EB6 /* CustomizedActionSheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA27062212400F1800C93EB6 /* Build configuration list for PBXNativeTarget "CustomizedActionSheet" */;
+			buildPhases = (
+				EA27060012400F1800C93EB6 /* Sources */,
+				EA27060112400F1800C93EB6 /* Frameworks */,
+				EA27060212400F1800C93EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomizedActionSheet;
+			productName = CustomizedActionSheet;
+			productReference = EA27060412400F1800C93EB6 /* CustomizedActionSheet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA2705F712400F1800C93EB6 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EA2705FA12400F1800C93EB6 /* Build configuration list for PBXProject "CustomizedActionSheet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA2705F512400F1800C93EB6;
+			productRefGroup = EA27060512400F1800C93EB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA27060312400F1800C93EB6 /* CustomizedActionSheet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA27060212400F1800C93EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA27061112400F1800C93EB6 /* InfoPlist.strings in Resources */,
+				EA27061912400F1800C93EB6 /* MainWindow.xib in Resources */,
+				EA27061F12400F1800C93EB6 /* CustomizedActionSheetViewController.xib in Resources */,
+				EA27063F1240210900C93EB6 /* red.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA27060012400F1800C93EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA27061312400F1800C93EB6 /* main.m in Sources */,
+				EA27061612400F1800C93EB6 /* CustomizedActionSheetAppDelegate.m in Sources */,
+				EA27061C12400F1800C93EB6 /* CustomizedActionSheetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA27060F12400F1800C93EB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA27061012400F1800C93EB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA27061712400F1800C93EB6 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA27061812400F1800C93EB6 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		EA27061D12400F1800C93EB6 /* CustomizedActionSheetViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA27061E12400F1800C93EB6 /* en */,
+			);
+			name = CustomizedActionSheetViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA27062012400F1800C93EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		EA27062112400F1800C93EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		EA27062312400F1800C93EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CustomizedActionSheet_Prefix.pch;
+				INFOPLIST_FILE = "CustomizedActionSheet-Info.plist";
+				PRODUCT_NAME = CustomizedActionSheet;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA27062412400F1800C93EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CustomizedActionSheet_Prefix.pch;
+				INFOPLIST_FILE = "CustomizedActionSheet-Info.plist";
+				PRODUCT_NAME = CustomizedActionSheet;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA2705FA12400F1800C93EB6 /* Build configuration list for PBXProject "CustomizedActionSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA27062012400F1800C93EB6 /* Debug */,
+				EA27062112400F1800C93EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA27062212400F1800C93EB6 /* Build configuration list for PBXNativeTarget "CustomizedActionSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA27062312400F1800C93EB6 /* Debug */,
+				EA27062412400F1800C93EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA2705F712400F1800C93EB6 /* Project object */;
+}
