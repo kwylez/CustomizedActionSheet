@@ -17,23 +17,27 @@
 }
 
 - (void)willPresentActionSheet:(UIActionSheet *)actionSheet {
-
+  
+  int i=0;
+  
   for (UIView* view in [actionSheet subviews]) {
     
-    if ([view isKindOfClass:NSClassFromString(@"UIThreePartButton")]) {
+    if ([view isKindOfClass:NSClassFromString(@"UIAlertButton")]) {
+      
+      view.alpha = 0;
 
-      if ([view respondsToSelector:@selector(setBackgroundImage:)]) {
-
-        [view setBackgroundImage:[UIImage imageNamed:@"red.png"]];
-
-        if ([view respondsToSelector:@selector(setTitleColor:forState:)]) {
-          [view setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        }
-        
-        if ([view respondsToSelector:@selector(setShadowColor:forState:)]) {
-          [view setShadowColor:[UIColor blackColor] forState:UIControlStateNormal];
-        }
+      UIButton* bview = [[UIButton alloc ] initWithFrame:CGRectMake(5, 10 + i * 40, 310, 35)];
+      
+      if (i==0) {
+        [bview setBackgroundImage:[UIImage imageNamed:@"BtnShowquantity.png"] forState:0];
+      } else if (i==1) {
+        [bview setBackgroundImage:[UIImage imageNamed:@"BtnScheduleReport.png"] forState:0];
+      } else if (i==2) {
+        [bview setBackgroundImage:[UIImage imageNamed:@"BtnShoppingReport.png"] forState:0];
       }
+      
+      [actionSheet addSubview:bview];
+      i += 1;
     }
   }
 }
