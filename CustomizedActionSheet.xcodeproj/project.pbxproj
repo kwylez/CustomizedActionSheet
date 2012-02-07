@@ -225,9 +225,9 @@
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -239,10 +239,10 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -255,6 +255,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CustomizedActionSheet_Prefix.pch;
 				INFOPLIST_FILE = "CustomizedActionSheet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = CustomizedActionSheet;
 				WRAPPER_EXTENSION = app;
 			};
@@ -268,6 +269,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CustomizedActionSheet_Prefix.pch;
 				INFOPLIST_FILE = "CustomizedActionSheet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = CustomizedActionSheet;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
