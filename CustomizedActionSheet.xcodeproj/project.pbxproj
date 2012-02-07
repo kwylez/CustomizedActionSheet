@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0141A99914E0C96D00A3E7B8 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 0141A99814E0C96D00A3E7B8 /* red.png */; };
 		EA27060812400F1800C93EB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA27060712400F1800C93EB6 /* UIKit.framework */; };
 		EA27060A12400F1800C93EB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA27060912400F1800C93EB6 /* Foundation.framework */; };
 		EA27060C12400F1800C93EB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA27060B12400F1800C93EB6 /* CoreGraphics.framework */; };
@@ -17,10 +18,10 @@
 		EA27061C12400F1800C93EB6 /* CustomizedActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27061B12400F1800C93EB6 /* CustomizedActionSheetViewController.m */; };
 		EA27061F12400F1800C93EB6 /* CustomizedActionSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA27061D12400F1800C93EB6 /* CustomizedActionSheetViewController.xib */; };
 		EA27062D124016EC00C93EB6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA27062C124016EC00C93EB6 /* QuartzCore.framework */; };
-		EA27063F1240210900C93EB6 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = EA27063E1240210900C93EB6 /* red.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0141A99814E0C96D00A3E7B8 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 		EA27060412400F1800C93EB6 /* CustomizedActionSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomizedActionSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA27060712400F1800C93EB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EA27060912400F1800C93EB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,7 +38,6 @@
 		EA27061E12400F1800C93EB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CustomizedActionSheetViewController.xib; sourceTree = "<group>"; };
 		EA27062A124016CC00C93EB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		EA27062C124016EC00C93EB6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		EA27063E1240210900C93EB6 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = /Users/coryw/Desktop/red.png; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 		EA2705FE12400F1800C93EB6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EA27063E1240210900C93EB6 /* red.png */,
+				0141A99814E0C96D00A3E7B8 /* red.png */,
 				EA27060D12400F1800C93EB6 /* CustomizedActionSheet-Info.plist */,
 				EA27060F12400F1800C93EB6 /* InfoPlist.strings */,
 				EA27061712400F1800C93EB6 /* MainWindow.xib */,
@@ -168,7 +168,7 @@
 				EA27061112400F1800C93EB6 /* InfoPlist.strings in Resources */,
 				EA27061912400F1800C93EB6 /* MainWindow.xib in Resources */,
 				EA27061F12400F1800C93EB6 /* CustomizedActionSheetViewController.xib in Resources */,
-				EA27063F1240210900C93EB6 /* red.png in Resources */,
+				0141A99914E0C96D00A3E7B8 /* red.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +225,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
@@ -239,7 +239,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
